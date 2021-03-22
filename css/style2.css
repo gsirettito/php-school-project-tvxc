@@ -1,0 +1,220 @@
+.tabla {
+    margin-left: 10px;
+}
+.rcelda {
+    text-align: right;
+}
+.lcelda {
+    text-align: left;
+}
+
+.fbanner {
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*slideshow*/
+#slide { 
+    position: relative; 
+    width: 100%; 
+    height: 340px;
+    margin: 0px auto; 
+    padding: 0px; 
+    z-index: 2; 
+    background: none no-repeat center fixed; 
+    overflow: hidden; 
+}
+.slider { 
+    width: 100%; 
+    margin: 0px auto; 
+    position: relative; 
+    z-index: 2; 
+    overflow: visible ! important; 
+}
+.items { 
+    display: none;
+}
+.pagination { display: none; }
+.pagination li {  }
+.pagination a {  }
+.pagination li.current a, .pagination li:hover a {  }
+.prev { position: absolute; top: 50%; left: 90px; z-index: 111; display: inline-block; width: 22px; height: 20px; background: url("prev.gif") no-repeat scroll 0px 0px transparent; }
+.prev:hover { background-position: 0px bottom; }
+.next { position: absolute; top: 50%; right: 90px; z-index: 111; display: inline-block; width: 22px; height: 20px; background: url("next.gif") no-repeat scroll 0px 0px transparent; }
+.next:hover { background-position: 0px bottom; }
+.banner { position: absolute; left: 0px; top: 200px; width: 100%; background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.5); overflow: hidden; padding: 10px 0px 0px; }
+.banner p { margin-left: 20px; width: 100%; float: left; }
+.banner p strong { font-size: 40px; line-height: 40px; color: rgb(255, 255, 255); font-weight: normal; letter-spacing: -3px; display: block; }
+.banner p span { font-size: 18px; line-height: 24px; color: rgb(11, 240, 48); font-weight: normal; letter-spacing: -1px; display: block; margin-top: -1px; }
+.banner a { background: none repeat scroll 0% 0% rgb(239, 111, 83); color: rgb(255, 255, 255); font-size: 26px; line-height: 32px; padding: 11px 24px 21px; display: inline-block; float: right; margin-top: 1px; }
+.banner a:hover { background: none repeat scroll 0% 0% rgb(99, 111, 111); }
+
+/*slider*/
+ul.ppt {  
+    position: relative;  
+}  
+.ppt li {  
+    list-style-type: none;  
+    position: absolute;  
+    top: 0;  
+    left: 0;  
+    width: 100%;
+    height: 100px;
+    margin-top: -40px;
+}  
+  
+.ppt img {  
+    border: 1px solid #e7e7e7;  
+    padding: 5px;  
+    background-color: #ececec;  
+}
+
+ul.tsix1 { position: relative;}
+.tsix1 li { list-style-type: none; position: absolute; top: 0px; left: 0px;}  
+.tsix1 img { position: relative; width: 100px;}
+
+ul.tsix2 {  position: relative;}
+.tsix2 li {  list-style-type: none;  position: absolute;  top: 0px;  left: 0px;}  
+.tsix2 img { position: relative; width: 100px;}
+
+ul.tsix3 {  position: relative;}
+.tsix3 li {  list-style-type: none;  position: absolute;  top: 0px;  left: 0px;}  
+.tsix3 img { position: relative; width: 100px;}
+
+ul.tsix4 {  position: relative;}
+.tsix4 li {  list-style-type: none;  position: absolute;  top: 0px;  left: 0px;}  
+.tsix4 img { position: relative; width: 100px;}
+
+ul.tsix5 {  position: relative;}
+.tsix5 li {  list-style-type: none;  position: absolute;  top: 0px;  left: 0px;}  
+.tsix5 img { position: relative; width: 100px;}
+
+ul.tsix6 {  position: relative;}
+.tsix6 li {  list-style-type: none;  position: absolute;  top: 0px;  left: 0px;}  
+.tsix6 img { position: relative; width: 100px;}
+
+/*coutdown*/
+#countdown {
+    text-align: center;
+    margin:  5px 0px 5px;
+    min-height: 10px;
+}
+#countdown > div {
+    width: 45px;
+    height: 45px;
+    margin: 0px 1%;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 18px;
+    position: relative;
+    font-weight: 300;
+    color: #000;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+#countdown > div > span
+{
+  display: block;
+}
+
+/*zommer top six*/
+div, .btn, a, a:hover { text-decoration: none; transition: all 0.3s ease-in-out 0s; outline: 0px none; }
+
+h1 { font-size: 2em; font-weight: 300; margin-bottom: 20px; }
+a { color: rgb(51, 51, 51); }
+a:hover, a:focus, a:active { color: rgb(0, 0, 0); }
+img, input, .btn, a, a:hover, a:active, a:focus, div { text-decoration: none; transition: all 0.3s ease-in-out 0s; outline: 0px none; }
+.hero-land { margin-bottom: 5px; }
+.hero-land .landing { float: left; width:280px; height:180px; overflow: hidden; background: none repeat scroll 0% 0% rgb(0, 0, 0); position: relative; }
+.hero-land .landing img { height: 100%; width: auto; }
+.hero-land .landing:hover img { transform: scale(1.07); opacity: 0.3; }
+.hero-land .landing:hover .caption { display: block; }
+.hero-land .landing .caption { position: absolute; top: 10%; text-align: center; width: 100%; display: none; transform: translateY(-50%); }
+.hero-land .landing .caption h1 { color: rgb(255, 255, 255); font-size: 2em; }
+.hero-land .landing .caption a { background: none repeat scroll 0% 0% rgb(255, 235, 59); color: rgb(51, 51, 51); font-size: 3em; width: 40px; line-height: 40px; display: inline-block; border-radius: 50%; }
+
+/*Botones anim*/
+.btn, .pagination-classic > li > a, .pagination-classic > li > span { display: inline-block; margin-bottom: 0px; font-weight: 900; text-align: center; vertical-align: middle; cursor: pointer; background-image: none; border: 1px solid transparent; white-space: nowrap; padding: 9px 16px; font-size: 16px; line-height: 1.5; border-radius: 4px; -moz-user-select: none; }
+.btn:focus, .pagination-classic > li > a:focus, .pagination-classic > li > span:focus, .btn.focus, .pagination-classic > li > a.focus, .pagination-classic > li > span.focus, .btn:active:focus, .pagination-classic > li > a:active:focus, .pagination-classic > li > span:active:focus, .btn.focus:active, .pagination-classic > li > a.focus:active, .pagination-classic > li > span.focus:active, .btn.active:focus, .pagination-classic > li > a.active:focus, .pagination-classic > li > span.active:focus, .btn.active.focus, .pagination-classic > li > a.active.focus, .pagination-classic > li > span.active.focus { outline: thin dotted; outline-offset: -2px; }
+.btn:hover, .pagination-classic > li > a:hover, .pagination-classic > li > span:hover, .btn:focus, .pagination-classic > li > a:focus, .pagination-classic > li > span:focus, .btn.focus, .pagination-classic > li > a.focus, .pagination-classic > li > span.focus { color: rgb(51, 51, 51); text-decoration: none; }
+.btn:active, .pagination-classic > li > a:active, .pagination-classic > li > span:active, .btn.active, .pagination-classic > li > a.active, .pagination-classic > li > span.active { outline: 0px none; background-image: none; box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.125) inset; }
+
+.btn-default, .pagination-classic > li + li:not(:last-child) > a, .pagination-classic > li + li:not(:last-child) > span { color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); border-color: rgb(204, 204, 204); }
+.btn-default:focus, .pagination-classic > li + li:not(:last-child) > a:focus, .pagination-classic > li + li:not(:last-child) > span:focus, .btn-default.focus, .pagination-classic > li + li:not(:last-child) > a.focus, .pagination-classic > li + li:not(:last-child) > span.focus { color: rgb(51, 51, 51); background-color: rgb(230, 230, 230); border-color: rgb(140, 140, 140); }
+.btn-default:hover, .pagination-classic > li + li:not(:last-child) > a:hover, .pagination-classic > li + li:not(:last-child) > span:hover { color: rgb(51, 51, 51); background-color: rgb(230, 230, 230); border-color: rgb(173, 173, 173); }
+.btn-default:active, .pagination-classic > li + li:not(:last-child) > a:active, .pagination-classic > li + li:not(:last-child) > span:active, .btn-default.active, .pagination-classic > li + li:not(:last-child) > a.active, .pagination-classic > li + li:not(:last-child) > span.active, .open > .btn-default.dropdown-toggle, .pagination-classic > li + li.open:not(:last-child) > a.dropdown-toggle, .pagination-classic > li + li.open:not(:last-child) > span.dropdown-toggle { color: rgb(51, 51, 51); background-color: rgb(230, 230, 230); border-color: rgb(173, 173, 173); }
+.btn-default:active:hover, .pagination-classic > li + li:not(:last-child) > a:active:hover, .pagination-classic > li + li:not(:last-child) > span:active:hover, .btn-default:active:focus, .pagination-classic > li + li:not(:last-child) > a:active:focus, .pagination-classic > li + li:not(:last-child) > span:active:focus, .btn-default.focus:active, .pagination-classic > li + li:not(:last-child) > a.focus:active, .pagination-classic > li + li:not(:last-child) > span.focus:active, .btn-default.active:hover, .pagination-classic > li + li:not(:last-child) > a.active:hover, .pagination-classic > li + li:not(:last-child) > span.active:hover, .btn-default.active:focus, .pagination-classic > li + li:not(:last-child) > a.active:focus, .pagination-classic > li + li:not(:last-child) > span.active:focus, .btn-default.active.focus, .pagination-classic > li + li:not(:last-child) > a.active.focus, .pagination-classic > li + li:not(:last-child) > span.active.focus, .open > .btn-default.dropdown-toggle:hover, .pagination-classic > li + li.open:not(:last-child) > a.dropdown-toggle:hover, .pagination-classic > li + li.open:not(:last-child) > span.dropdown-toggle:hover, .open > .btn-default.dropdown-toggle:focus, .pagination-classic > li + li.open:not(:last-child) > a.dropdown-toggle:focus, .pagination-classic > li + li.open:not(:last-child) > span.dropdown-toggle:focus, .open > .btn-default.dropdown-toggle.focus, .pagination-classic > li + li.open:not(:last-child) > a.dropdown-toggle.focus, .pagination-classic > li + li.open:not(:last-child) > span.dropdown-toggle.focus { color: rgb(51, 51, 51); background-color: rgb(212, 212, 212); border-color: rgb(140, 140, 140); }
+.btn-default:active, .pagination-classic > li + li:not(:last-child) > a:active, .pagination-classic > li + li:not(:last-child) > span:active, .btn-default.active, .pagination-classic > li + li:not(:last-child) > a.active, .pagination-classic > li + li:not(:last-child) > span.active, .open > .btn-default.dropdown-toggle, .pagination-classic > li + li.open:not(:last-child) > a.dropdown-toggle, .pagination-classic > li + li.open:not(:last-child) > span.dropdown-toggle { background-image: none; }
+.btn-default.disabled:hover, .pagination-classic > li + li:not(:last-child) > a.disabled:hover, .pagination-classic > li + li:not(:last-child) > span.disabled:hover, .btn-default.disabled:focus, .pagination-classic > li + li:not(:last-child) > a.disabled:focus, .pagination-classic > li + li:not(:last-child) > span.disabled:focus, .btn-default.disabled.focus, .pagination-classic > li + li:not(:last-child) > a.disabled.focus, .pagination-classic > li + li:not(:last-child) > span.disabled.focus, .btn-default[disabled]:hover, .pagination-classic > li + li:not(:last-child) > a[disabled]:hover, .pagination-classic > li + li:not(:last-child) > span[disabled]:hover, .btn-default[disabled]:focus, .pagination-classic > li + li:not(:last-child) > a[disabled]:focus, .pagination-classic > li + li:not(:last-child) > span[disabled]:focus, .btn-default.focus[disabled], .pagination-classic > li + li:not(:last-child) > a.focus[disabled], .pagination-classic > li + li:not(:last-child) > span.focus[disabled], fieldset[disabled] .btn-default:hover, fieldset[disabled] .pagination-classic > li + li:not(:last-child) > a:hover, fieldset[disabled] .pagination-classic > li + li:not(:last-child) > span:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .pagination-classic > li + li:not(:last-child) > a:focus, fieldset[disabled] .pagination-classic > li + li:not(:last-child) > span:focus, fieldset[disabled] .btn-default.focus, fieldset[disabled] .pagination-classic > li + li:not(:last-child) > a.focus, fieldset[disabled] .pagination-classic > li + li:not(:last-child) > span.focus { background-color: rgb(255, 255, 255); border-color: rgb(204, 204, 204); }
+.btn-default .badge, .pagination-classic > li + li:not(:last-child) > a .badge, .pagination-classic > li + li:not(:last-child) > span .badge { color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); }
+
+.btn-primary { color: rgb(255, 255, 255); background-color: rgb(51, 122, 183); border-color: rgb(46, 109, 164); }
+.btn-primary:focus, .btn-primary.focus { color: rgb(255, 255, 255); background-color: rgb(40, 96, 144); border-color: rgb(18, 43, 64); }
+.btn-primary:hover { color: rgb(255, 255, 255); background-color: rgb(40, 96, 144); border-color: rgb(32, 77, 116); }
+.btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle { color: rgb(255, 255, 255); background-color: rgb(40, 96, 144); border-color: rgb(32, 77, 116); }
+.btn-primary:active:hover, .btn-primary:active:focus, .btn-primary.focus:active, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus, .open > .btn-primary.dropdown-toggle:hover, .open > .btn-primary.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle.focus { color: rgb(255, 255, 255); background-color: rgb(32, 77, 116); border-color: rgb(18, 43, 64); }
+.btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle { background-image: none; }
+
+.btn-accept { color: rgb(255, 255, 255); background-color: rgb(51, 122, 183); border-color: rgb(46, 109, 164); }
+.btn-accept:focus, .btn-accept.focus { color: rgb(255, 255, 255); background-color: rgb(40, 96, 144); border-color: rgb(18, 43, 64); }
+.btn-accept:hover { color: rgb(44, 44, 44); background-color: #FFD34E; border-color: #FFD30E; }
+.btn-accept:active, .btn-accept.active, .open > .btn-accept.dropdown-toggle { color: rgb(255, 255, 255); background-color: rgb(40, 96, 144); border-color: rgb(32, 77, 116); }
+.btn-accept:active:hover, .btn-accept:active:focus, .btn-accept.focus:active, .btn-accept.active:hover, .btn-accept.active:focus, .btn-accept.active.focus, .open > .btn-accept.dropdown-toggle:hover, .open > .btn-accept.dropdown-toggle:focus, .open > .btn-accept.dropdown-toggle.focus { color: rgb(255, 255, 255); background-color: rgb(32, 77, 116); border-color: rgb(18, 43, 64); }
+.btn-accept:active, .btn-accept.active, .open > .btn-accept.dropdown-toggle { background-image: none; }
+
+.btn-send { color: rgb(48, 48, 48); background-color: rgb(51, 122, 183); border-color: rgb(146, 109, 164); }
+.btn-send:focus, .btn-send.focus { color: rgb(48, 48, 48); background-color: rgb(253, 221, 113); border-color: rgb(18, 43, 64); }
+.btn-send:hover { color: rgb(44, 44, 44); background-color: #aaD34E; border-color: #FFD30E; }
+.btn-send:active, .btn-send.active, .open > .btn-send.dropdown-toggle { color: rgb(48, 48, 48); background-color: rgb(40, 96, 144); border-color: rgb(32, 77, 116); }
+.btn-send:active:hover, .btn-send:active:focus, .btn-send.focus:active, .btn-send.active:hover, .btn-send.active:focus, .btn-send.active.focus, .open > .btn-send.dropdown-toggle:hover, .open > .btn-send.dropdown-toggle:focus, .open > .btn-send.dropdown-toggle.focus { color: rgb(48, 48, 48); background-color: rgb(32, 77, 116); border-color: rgb(18, 43, 64); }
+.btn-send:active, .btn-send.active, .open > .btn-send.dropdown-toggle { background-image: none; }
+
+.btn-lg, .btn-group-lg > .btn, .pagination-classic > li.btn-group-lg > a, .pagination-classic > li.btn-group-lg > span { padding: 17px 24px; font-size: 17px; line-height: 1.33333; border-radius: 6px; }
+.btn-anis-effect { position: relative; z-index: 1; overflow: hidden; background-color: transparent; transition: all 0.2s ease 0.1s; }
+.btn-anis-effect:hover { transition-delay: 0.45s; }
+.btn-anis-effect:before, .btn-anis-effect:after { position: absolute; top: 50%; content: ""; width: 20px; height: 20px; background: none repeat scroll 0% 0% rgb(67, 67, 69); border-radius: 50%; transition: all 0.5s ease 0s; z-index: -1; }
+.btn-anis-effect:before { left: -20px; transform: translate(-50%, -50%); }
+.btn-anis-effect:after { right: -20px; transform: translate(50%, -50%); }
+.btn-anis-effect:hover:before { animation: 0.8s ease 0s normal none 1 running criss-cross-left; }
+.btn-anis-effect:hover:after { animation: 0.8s ease 0s normal none 1 running criss-cross-right; }
+
+.btn-anis-effect.btn-accept { color: rgb(255, 255, 255); }
+.btn-anis-effect.btn-accept:before, .btn-anis-effect.btn-accept:after { background: none repeat scroll 0% 0% rgb(121, 204, 242); }
+.btn-anis-effect.btn-accept:hover { color: rgb(68, 68, 69); border-color: rgb(121, 204, 242); background: none repeat scroll 0% 0% rgb(21, 204, 242); }
+
+.btn-anis-effect.btn-send { color: rgb(140, 140, 140); }
+.btn-anis-effect.btn-send:before, .btn-anis-effect.btn-send:after { background: none repeat scroll 0% 0% rgb(255, 201, 14); }
+.btn-anis-effect.btn-send:hover { color: rgb(48, 48, 48); border-color: rgb(128, 128, 128); background: none repeat scroll 0% 0% rgb(253, 197, 2); }
+
+.btn-anis-effect.btn-primary { color: rgb(255, 255, 255); background-color: rgb(66, 181, 116); }
+.btn-anis-effect.btn-primary:before, .btn-anis-effect.btn-primary:after { background: none repeat scroll 0% 0% rgb(121, 204, 242); }
+.btn-anis-effect.btn-primary:hover { color: rgb(255, 255, 255); border-color: rgb(121, 204, 242); background: none repeat scroll 0% 0% rgb(121, 204, 242); }
+
+
+.btn-anis-effect.btn-default, .pagination-classic > li + li:not(:last-child) > a.btn-anis-effect, .pagination-classic > li + li:not(:last-child) > span.btn-anis-effect { color: #FFD34E; background-color: transparent; border-color: rgb(217, 217, 217); }
+.btn-anis-effect.btn-default:hover, .pagination-classic > li + li:not(:last-child) > a.btn-anis-effect:hover, .pagination-classic > li + li:not(:last-child) > span.btn-anis-effect:hover { color: rgb(255, 255, 255); border-color: rgb(67, 67, 69); background: none repeat scroll 0% 0% rgb(67, 67, 69); }
+.btn.btn-rayen-effect.btn-default, .pagination-classic > li > a.btn-rayen-effect.btn-default, .pagination-classic > li + li:not(:last-child) > a.btn-rayen-effect, .pagination-classic > li > span.btn-rayen-effect.btn-default, .pagination-classic > li + li:not(:last-child) > span.btn-rayen-effect { color: rgb(67, 67, 69); border-color: rgb(67, 67, 69); }
+.btn.btn-rayen-effect.btn-default:hover, .pagination-classic > li > a.btn-rayen-effect.btn-default:hover, .pagination-classic > li + li:not(:last-child) > a.btn-rayen-effect:hover, .pagination-classic > li > span.btn-rayen-effect.btn-default:hover, .pagination-classic > li + li:not(:last-child) > span.btn-rayen-effect:hover { color: rgb(255, 255, 255); box-shadow: 1px 0px 0px 0px rgb(67, 67, 69) inset; }
+.btn.btn-rayen-effect.btn-default:before, .pagination-classic > li > a.btn-rayen-effect.btn-default:before, .pagination-classic > li + li:not(:last-child) > a.btn-rayen-effect:before, .pagination-classic > li > span.btn-rayen-effect.btn-default:before, .pagination-classic > li + li:not(:last-child) > span.btn-rayen-effect:before { background-color: rgb(67, 67, 69); color: rgb(255, 255, 255); }
+.btn.btn-nuka-effect.btn-default:before, .pagination-classic > li > a.btn-nuka-effect.btn-default:before, .pagination-classic > li + li:not(:last-child) > a.btn-nuka-effect:before, .pagination-classic > li > span.btn-nuka-effect.btn-default:before, .pagination-classic > li + li:not(:last-child) > span.btn-nuka-effect:before, .btn.btn-nuka-effect.btn-default:after, .pagination-classic > li > a.btn-nuka-effect.btn-default:after, .pagination-classic > li + li:not(:last-child) > a.btn-nuka-effect:after, .pagination-classic > li > span.btn-nuka-effect.btn-default:after, .pagination-classic > li + li:not(:last-child) > span.btn-nuka-effect:after { background-color: rgb(67, 67, 69); }
+.btn.btn-nuka-effect.btn-default:hover:after, .pagination-classic > li > a.btn-nuka-effect.btn-default:hover:after, .pagination-classic > li + li:not(:last-child) > a.btn-nuka-effect:hover:after, .pagination-classic > li > span.btn-nuka-effect.btn-default:hover:after, .pagination-classic > li + li:not(:last-child) > span.btn-nuka-effect:hover:after { background-color: rgb(255, 255, 255); }
+.btn.btn-polat-effect.btn-default .btn-text, .pagination-classic > li > a.btn-polat-effect.btn-default .btn-text, .pagination-classic > li + li:not(:last-child) > a.btn-polat-effect .btn-text, .pagination-classic > li > span.btn-polat-effect.btn-default .btn-text, .pagination-classic > li + li:not(:last-child) > span.btn-polat-effect .btn-text { color: rgb(67, 67, 69); }
+
+@keyframes criss-cross-left {
+  0% { left: -20px; }
+  50% { left: 50%; width: 20px; height: 20px; }
+  100% { left: 50%; width: 375px; height: 375px; }
+}
+
+@keyframes criss-cross-right {
+  0% { right: -20px; }
+  50% { right: 50%; width: 20px; height: 20px; }
+  100% { right: 50%; width: 375px; height: 375px; }
+}
